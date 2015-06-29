@@ -3,7 +3,7 @@ A data science tutorial using NBA data
 
 ## Preparation
 
-### Setup Git (and GitHub on your coimputer)
+### Setup Git (and GitHub)
 If you don't have a GitHub account, be sure to register for one [here](https://github.com/join).
 GitHub has some great tutorials for getting your computer setup for this https://help.github.com/articles/set-up-git/
 
