@@ -12,7 +12,7 @@ Hit the fork button at the repository home (http://github.com/nsamala/py-datasci
 
 Once that is complete, make a note of the HTTPS clone url (found in the bottom right of the webpage for your forked repository) and run the following commands in a terminal on your computer:
 ```bash
-git clone [https clone url goes here] && cd py-datascience
+git clone https://github.com/[YOUR USERNAME]/py-datascience.git && cd py-datascience
 ```
 
 ### Setup Travis CI (for unit testing)
