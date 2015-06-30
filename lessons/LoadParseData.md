@@ -51,4 +51,4 @@ with open('data/NBA1415GameLog.csv', 'rb') as csvfile:
 When you run the code, each line will be attributed with the headers. This gives us a super easy way to access the data. You can change `print(line)` to `print(line["PLAYER FULL NAME"])` to print out player names.
 
 ## Progamming Assignment
-[TODO] Add the data parsing assignment for this lesson.
+You'll find the first programming assignment in the assignment.py file. There are a number of problems for you to complete. When complete, run it against `python tests.py` to ensure your code works properly. When complete push it to Travis CI to confirm everything works.
