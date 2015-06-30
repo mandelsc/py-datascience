@@ -22,4 +22,4 @@ Go to [Travis CI](https://travis-ci.org) and login with your GitHub account. Hit
 TODO: add a sample here to run and unit test
 
 ## Next Steps
-Awesome! Time to run to the first tutorial: (Loading + Parsing your data)[lessons/LoadParseData.md]
+Awesome! Time to run to the first tutorial: [Loading + Parsing your data](lessons/LoadParseData.md)
