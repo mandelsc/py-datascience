@@ -24,13 +24,13 @@ If you trigger the code to build as is, it will fail. You can try this on the Tr
 Add the following code to the `code.py` file:
 ```python
 def add(x, y):
-	return x + y;
+	return x + y
 
 def increment(x):
-	return add(x, 1);
+	return add(x, 1)
 	
 def hello():
-	return "world";
+	return "world"
 ```
 
 You can test these changes locally by running `python tests.py`. If everything went to plan, you should get 3 passed tests. Now push the changes to GitHub:
