@@ -33,7 +33,7 @@ def hello():
 	return "world";
 ```
 
-You can test these changes locally by running `python tests.py`. If everything went to plan, you should get 3 passed tests. Now push you changes to GitHub:
+You can test these changes locally by running `python tests.py`. If everything went to plan, you should get 3 passed tests. Now push the changes to GitHub:
 
 ```bash
 git add --all
