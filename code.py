@@ -17,9 +17,8 @@ def print_csv(data):
 	for line in data:
 	# When you change one of these lines, be sure to comment out the others so as to avoid duplicate print statements
 		print line
-		#print line[0]
+		#print line[2]
 		#print line["PLAYER FULL NAME"]
 
-# comment out these lines before submitting the first assignment
 data = read_file('data/NBA1415GameLog.csv')
 print_csv(data)
