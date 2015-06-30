@@ -1,20 +1,15 @@
 import unittest
+import code
 
 class TestIntroduction(unittest.TestCase):
+  def test_add(self):
+      self.assertEqual(code.add(1, 2), 3)
 
-  def test_upper(self):
-      self.assertEqual('foo'.upper(), 'FOO')
-
-  def test_isupper(self):
-      self.assertTrue('FOO'.isupper())
-      self.assertFalse('Foo'.isupper())
-
-  def test_split(self):
-      s = 'hello world'
-      self.assertEqual(s.split(), ['hello', 'world'])
-      # check that s.split fails when the separator is not a string
-      with self.assertRaises(TypeError):
-          s.split(2)
+  def test_increment(self):
+      self.assertTrue(code.increment(1), 2)
+      
+  def test_hello(self):
+      self.assertTrue(code.hello(), "world")
 
 if __name__ == '__main__':
     unittest.main()

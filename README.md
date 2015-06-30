@@ -16,10 +16,31 @@ git clone https://github.com/[YOUR USERNAME]/py-datascience.git && cd py-datasci
 ```
 
 ### Setup Travis CI (for unit testing)
+As you complete programming assignments, you'll want to test them for correctness. We'll use Travis CI to automatically run tests against your code each time you push changes.
 Go to [Travis CI](https://travis-ci.org) and login with your GitHub account. Hit the toggle switch next to py-datascience to enable builds for your repository.
 
 ## Run a test
-TODO: add a sample here to run and unit test
+If you trigger the code to build as is, it will fail. You can try this on the Travis CI interface. Let's get it working before we continue:
+Add the following code to the `code.py` file:
+```python
+def add(x, y):
+	return x + y;
+
+def increment(x):
+	return add(x, 1);
+	
+def hello():
+	return "world";
+```
+
+You can test these changes locally by running `python tests.py`. If everything went to plan, you should get 3 passed tests. Now push you changes to GitHub:
+
+```bash
+git add --all
+git commit -m "passed the first test"
+git push
+```
+
 
 ## Next Steps
 Awesome! Time to run to the first tutorial: [Loading + Parsing your data](lessons/LoadParseData.md)
