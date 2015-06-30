@@ -41,6 +41,7 @@ git commit -m "passed the first test"
 git push
 ```
 
+You should see all of the tests pass in Travis CI.
 
 ## Next Steps
 Awesome! Time to run to the first tutorial: [Loading + Parsing your data](lessons/LoadParseData.md)
