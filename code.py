@@ -5,8 +5,9 @@ def read_file(filename):
 	# open up the file
 	with open(filename, 'rb') as csvfile:
 		# parse the file	
-		#reader = csv.reader(csvfile)
-		reader = csv.DictReader(csvfile)
+		reader = csv.reader(csvfile)
+		#reader = csv.DictReader(csvfile)
+		
 		# add each line into an array
 		for line in reader:
 			lines.append(line)
