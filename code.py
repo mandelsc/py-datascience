@@ -6,5 +6,3 @@ def increment(x):
 
 def hello():
     return "world";
-
-//Test
