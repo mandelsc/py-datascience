@@ -5,8 +5,8 @@ def read_file(filename):
 	# open up the file
 	with open(filename, 'rb') as csvfile:
 		# parse the file	
-		reader = csv.reader(csvfile)
-		#reader = csv.DictReader(csvfile)
+		#reader = csv.reader(csvfile)
+		reader = csv.DictReader(csvfile)
 		
 		# add each line into an array
 		for line in reader:
@@ -16,9 +16,9 @@ def read_file(filename):
 def print_csv(data):
 	for line in data:
 	# When you change one of these lines, be sure to comment out the others so as to avoid duplicate print statements
-		print line
+		#print line
 		#print line[2]
-		#print line["PLAYER FULL NAME"]
+		print line["PLAYER FULL NAME"]
 
 data = read_file('data/NBA1415GameLog.csv')
 print_csv(data)
