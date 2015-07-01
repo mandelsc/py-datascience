@@ -5,14 +5,9 @@ A data science tutorial using NBA data
 This tutorial assumes you have a basic, working knowledge of Python and of Git. In addition, you'll need to have the following installed on your computer:
 - [Python 2.7](https://www.python.org/downloads/) (not 3.x!)
 - [Git](https://msysgit.github.io/)
-- A [GitHub account](https://github.com/join).
+- A [GitHub account](https://github.com/join). There are some great tutorials on getting your computer setup with GitHub: https://help.github.com/articles/set-up-git/
 
 ## Preparation
-
-### Setup Git (and GitHub)
-If you don't have a GitHub account, be sure to register for one [here](https://github.com/join).
-GitHub has some great tutorials for getting your computer setup for this https://help.github.com/articles/set-up-git/
-
 ### Fork the repository
 Hit the fork button at the repository home (http://github.com/nsamala/py-datascience). This will give you a copy of the repository to mess around with as you please.
 
