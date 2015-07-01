@@ -1,6 +1,12 @@
 # py-datascience
 A data science tutorial using NBA data
 
+## Prerequisites
+This tutorial assumes you have a basic, working knowledge of Python and of Git. In addition, you'll need to have the following installed on your computer:
+- [Python 2.7](https://www.python.org/downloads/) (not 3.x!)
+- [Git](https://msysgit.github.io/)
+- A [GitHub account](https://github.com/join).
+
 ## Preparation
 
 ### Setup Git (and GitHub)
