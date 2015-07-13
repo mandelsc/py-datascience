@@ -1,8 +1,8 @@
 import csv
-from datetime import datetime, date
+#from datetime import datetime, date
 
-start = date(2015, 2, 1)
-end = date(2015, 2, 28)
+#start = date(2015, 2, 1)
+#end = date(2015, 2, 28)
 
 def read_file(filename):
 	lines = []
@@ -28,15 +28,13 @@ def filter_date(strDate, start, end):
 data = read_file("data/NBA1415GameLog.csv")
 
 # apply the name filter using a list comprehension
-fournier_data = [float(line["PTS"]) for line in data if line["PLAYER FULL NAME"] == "Evan Fournier" and filter_date(line["DATE"], start, end)]
+fournier_data = [line for line in data if line["PLAYER FULL NAME"] == "Evan Fournier"]
 print fournier_data
 
 # calculate the mean of the data
-fournier_mean = sum(fournier_data) / len(fournier_data)
+#fournier_mean = sum(fournier_data) / len(fournier_data)
 #print sum(fournier_data)
 #print fournier_mean
-
-fournier_test = any()
 
 # date sample
 #print datetime.strptime(data[0]["DATE"], "%m/%d/%Y")
