@@ -44,5 +44,6 @@ git push
 
 You should see all of the tests pass in Travis CI.
 
-## Next Steps
-Awesome! Time to run to the first tutorial: [Loading + Parsing your data](lessons/LoadParseData.md)
+## Lessons
+Lesson 1: [Loading + Parsing your data](lessons/LoadParseData.md)
+Lesson 2: [Analyzing data](lessons/AnalyzeData.md)
