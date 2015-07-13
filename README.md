@@ -45,5 +45,5 @@ git push
 You should see all of the tests pass in Travis CI.
 
 ## Lessons
-Lesson 1: [Loading + Parsing your data](lessons/LoadParseData.md)
-Lesson 2: [Analyzing data](lessons/AnalyzeData.md)
+- Lesson 1: [Loading + Parsing your data](lessons/LoadParseData.md)
+- Lesson 2: [Analyzing data](lessons/AnalyzeData.md)
